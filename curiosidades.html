@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Google Fontes-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<!--JS-->
+	<script src="menu.js" defer></script>
+	<!--Título-->
+	<title>I Feira de Ciências Start LEM</title>
+	<!--SEO-->
+	<meta name="author" content="Mariana Silva Mateus" />
+	<meta name="keywords" content="Feira de Ciências, regiões, Brasil, autores brasileiros" />
+	<meta name="description" content="9 Year - Autores Brasileiros, obras, vida, regiões em que se destacaram" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="index.html" />
+</head>
+<body>
+	<header>
+		<div class="interface">
+			<div class="logo">
+				<a href="index.html">
+					<img src="imgs/Logo.png" alt="I Feira de Ciência Start-LEM">
+				</a>
+			</div>
+			<nav class="menu-desktop">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="autores.html">Autores</a></li>
+					<li><a href="alunos.html">Alunos</a></li>
+					<li><a href="curiosidades.html">Curiosidades</a></li>
+				</ul>
+			</nav>
+			<div class="btn-contato">
+				<a href="https://startangloschool.com.br/luis-eduardo-magalhaes.php" target="_blank">
+					<button>Contato</button>
+				</a>
+			</div>
+
+			<!--Menu Mobile-->
+			<div class="btn-abrir-menu" id="btn-menu">
+				<i class="bi bi-list"></i>
+			</div>
+			<div class="menu-mobile" id="menu-mobile">
+				<div class="btn-fechar">
+					<i class="bi bi-x-lg"></i>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="autores.html">Autores</a></li>
+						<li><a href="alunos.html">Alunos</a></li>
+						<li><a href="curiosidades.html">Curiosidades</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="overlay-menu" id="overlay-menu"></div>
+		</div>
+	</header>
+	<main>
+		<section class="topo-do-site">
+			<div class="interface">
+				<div class="flex">
+					<div class="txt-topo-site">
+						<h1><span>Curiosidades</span></h1>
+						<p>Sou especialista em Robótica Educacional, utilizando, desde kits como Lego e Modelix para estimular o raciocínio lógico, a criatividade e a resolução de problemas de forma prática e divertida.</p>
+						<p>Minhas aulas integram Gamificação com ferramentas como Construct, Kodu e Minecraft, tornando o aprendizado mais envolvente e conectado ao universo dos alunos.</p>
+						<p>Atuo também no ensino de Informática, desde o nível básico ao avançado, capacitando alunos para o uso consciente e produtivo das tecnologias digitais. Para quem deseja entrar no mundo da programação, ofereço conteúdos de Python para iniciantes, com foco na lógica de programação e na construção de projetos simples e funcionais.</p>				
+						<p>No campo da criação digital, ensino desenvolvimento 3D com o Tinkercad e o Fusion 360, ferramentas essenciais para introduzir conceitos de design, prototipagem e manufatura digital. E para complementar a formação técnica, introduzo conceitos de modelagem e simulação de processos com o FlexSim, possibilitando uma visão prática e estratégica do funcionamento de sistemas.</p>						
+						<p>Com essa combinação de ferramentas e metodologias, proporciono uma jornada de aprendizagem inovadora, acessível e alinhada com as demandas da educação e do mercado atual.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slide">
+			<div class="slide-content">
+				<input type="radio" name="btn-radio" id="radio1">
+				<input type="radio" name="btn-radio" id="radio2">
+				<input type="radio" name="btn-radio" id="radio3">
+				<input type="radio" name="btn-radio" id="radio4">
+				<div class="slide-box primeiro">
+					<img class="img-desktop" src="imgs/slide1.png" alt="slide1">
+					<img class="img-mobile" src="imgs/slide1-mob.png" alt="slide1">
+				</div>
+				<div class="slide-box">
+					<img class="img-desktop" src="imgs/slide2.png" alt="slide2">
+					<img class="img-mobile" src="imgs/slide2-mob.png" alt="slide2">
+				</div>
+				<div class="slide-box">
+					<img class="img-desktop" src="imgs/slide3.png" alt="slide3">
+					<img class="img-mobile" src="imgs/slide3-mob.png" alt="slide3">
+				</div>
+				<div class="slide-box">
+					<img class="img-desktop" src="imgs/slide4.png" alt="slide4">
+					<img class="img-mobile" src="imgs/slide4-mob.png" alt="slide4">
+				</div>
+				<div class="nav-auto">
+					<div class="auto-btn1"></div>
+					<div class="auto-btn2"></div>
+					<div class="auto-btn3"></div>
+					<div class="auto-btn4"></div>
+				</div>
+				<div class="nav-manual">
+					<label for="radio1" class="manual-btn"></label>
+					<label for="radio2" class="manual-btn"></label>
+					<label for="radio3" class="manual-btn"></label>
+					<label for="radio4" class="manual-btn"></label>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="interface">
+			<div class="line-footer">
+				<div class="flex">
+					<div class="logo-footer">
+						<img src="imgs/Logo.png">
+					</div>
+					<div class="btn-social">
+						<a href="https://www.instagram.com/startanglolem/" target="_blank">
+							<button>
+								<i class="bi bi-instagram"></i>
+							</button>
+						</a>
+						<a href="https://startangloschool.com.br/luis-eduardo-magalhaes.php" target="_blank">
+							<button>
+								<i class="bi bi-globe2"></i>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
